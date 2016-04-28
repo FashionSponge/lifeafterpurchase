@@ -1504,10 +1504,10 @@
 					<h3 class="text-left"> Need extra cash? Looking to save on the latest additions to your fashion  and home collection? </h3>
 					<div class="uk-grid uk-grid-collapse consignerBuyer">
 						<div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1">
-							<a href="<?php echo SITEURL; ?>/consign/" class="uk-button uk-float-right buttonConsigner final-sign-cosigner">CONSIGNER</a>						
+							<a href="<?php echo SITEURL; ?>/consign/" class="uk-button uk-float-right buttonConsigner final-sign-cosigner">CONSIGN NOW</a>						
 						</div><!-- end of width 1-2 -->
 						<div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1">
-							<a href="<?php echo SITEURL;?>/shopper/" class="uk-button uk-float-left buttonBuyer final-sign-shopper">SHOPPER</a>
+							<a href="<?php echo SITEURL;?>/shopper/" class="uk-button uk-float-left buttonBuyer final-sign-shopper">GET NOTIFIED</a>
 						</div><!-- end of width 1-2 -->
 					</div><!-- end onf consigner buyer -->
 				</div>

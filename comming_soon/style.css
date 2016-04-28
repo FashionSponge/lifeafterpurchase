@@ -302,8 +302,8 @@ div.title-collapse p{
 }
 
 .slider-article a{
-	background:#fff !important;
-	color: #000 !important;
+	/*background:#fff !important;*/
+	color: #000;
 	margin-top:12px; 
 }
 .footerInformation{

@@ -24,7 +24,12 @@
 }
 .final-sign-cosigner{
 	width: 170px !important;
+	background: #FF6A00 !important;
+    padding: 8.5px 0px !important;
+    color:#fff !important;
 }
 .final-sign-shopper{
 	width: 170px !important;
+	background: #F7E727!important;
+    padding: 8.5px 0px !important;
 }
