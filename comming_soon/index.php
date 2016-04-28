@@ -105,7 +105,7 @@
 
     <div class="container">
         <h1 class="logo cursive">
-           Coming Soon
+           Comming Soon
         </h1>
 <!--  H1 can have 2 designs: "logo" and "logo cursive"           -->
         

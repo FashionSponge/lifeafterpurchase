@@ -13,7 +13,7 @@ p{
 	font-family: 'Didot';
 	font-size: 12px;
 	line-height:18px;
-	margin-top:13px !important;
+	margin-top:1px !important;
 }
 #mainWrapper{
 	max-width: 100%;
@@ -25,35 +25,37 @@ p{
 	max-width:1140px;
 }
 .afterPurchaseResale{
-	margin-top: 15px;
+	margin-top: 25px;
 	max-width:1100px;
 	background-image:url(../img/product@2x.jpg);
 	background-repeat:no-repeat;
 	position: relative;
 	background-size:contain;
 	min-height:470px;
-	padding-top: 20px;
+	padding-top: 80px;
 	background-position: center center;
 }
 .afterPurchase{
 	padding: 0px 0 13px 0;
 	border-bottom: 1px solid #000;
-	margin-bottom: 17px;
-}
+	margin-bottom: 27px; 
+	width: 75%; 
+	margin-left:12.5%;
+ }
 .afterPurchase h1{
 	text-align:center;
 	color: #000;
 	font-family: 'Didot';
-	font-size: 46px;
+	font-size: 60px;
 	line-height: normal;
-	margin: 12px 0 -3px;
+	margin: 25px 0 -3px;
 	}
 
 .afterPurchase h2{
 	text-align:center;
 	color: #000;
 	font-family: 'Didot';
-	font-size: 20px;
+	font-size: 19px;
 	line-height: normal;
 	margin-top: 0px;
 	letter-spacing: -1px;
@@ -95,17 +97,17 @@ color:#19b0c6;
 
 article h4{
 	font-family: 'Didot';
-	font-size: 31px;
-	color: #fff;
-	line-height:50px;
-	margin-bottom: 5px;
+    font-size: 28px;
+    color: #fff;
+    line-height: 48px; 
 }
-.afterPurchaseContent p{
-	font-family: 'Didot';
-	font-size: 28px;
-	color: #fff;
-	line-height:34px;
-	margin-bottom: 26px;
+.afterPurchaseContent p{ 
+    font-family: 'Didot Regular & Avenir Next Medium';
+    font-size: 24px;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 15px;
+    margin-top: -10px !important;
 }
 article h5{
 	font-family: 'gothic1';
@@ -115,9 +117,10 @@ article h5{
 }
 .afterPurchaseContent{
 	margin: 0 auto;
-	max-width: 780px;
-	background-color: rgba(0, 0, 0, 0.5);
-	padding: 28px 56px;
+    max-width: 570px;
+    background-color: rgba(8, 8, 8, 0.78);
+    padding: 10px 10px;
+    max-height: 305px;
 }
 .consignerBuyer .buttonBuyer a,
 .consignerBuyer .buttonConsigner a{
@@ -134,13 +137,13 @@ article h5{
 .consignerBuyer .buttonBuyer,
 .consignerBuyer .buttonConsigner{
 	color: #fff;
-	background-color: #19b0c6;
-	border: 2px solid #fff;
-	font-size: 21px;
-	width: 180px;
-	padding: 6px 0;
-	font-family: 'Didot';
-	line-height: normal;
+    background-color: #19b0c6;
+    border: 2px solid #fff;
+    font-size: 18px;
+    padding: 3px 0px 0px 0px;
+    width: 130px;
+    font-family: 'Didot';
+    line-height: normal;
 }
 .brandTab .buttonMen,
 .consignerBuyer .buttonBuyer{
@@ -157,6 +160,7 @@ article h5{
 }
 span.red{
 	color: #de2203;
+	font-family: 'Didot Regular, Avenir Next Ultra Light';
 }
 span.white{
 	color: #fff;
