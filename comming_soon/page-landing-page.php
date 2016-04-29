@@ -1515,21 +1515,35 @@
 		</div>
 	</article>
 	
-	<article>
-		<div class="container">
+	<article>  
+       <div class="container"  >
+            <div class="row about_us" style = " height:0px;">
+
+                <center> <h4 class="text-left abt-us"  ><span class="black"  >&nbsp;ABOUT US </span></h4></center>               
+            </div> 
+        </div>
+
+        <div class="container" style = "border-bottom:1px solid black; ">
 			<div class="row about_us">
-				<h4 class="text-left"><span class="black">&nbsp;ABOUT US</span></h4>
-				<p class="text-left">
+
+                <h4 class="text-left" style = "border-top:1px solid black;" ></h4>
+                <p class="text-left">
 					<b>Life After Purchase,</b> a resale event, is the brainchild of Maurico, who’s one half of the Two Luxury Leo’s. After realizing that the consignment stores in the Tampa Bay area did not offer a diverse set of desired new and pre-owned goods or the seller could’nt get a good return on thier item, he knew there was a void he needed to fill. Stores that offer a great selection of new and pre-owned goods accepts only high-end or luxury goods. The issue is the average consigner/consumer don’t own or can’t afford to casually buy high-end or luxury goods but they would love to own quality affordable items. <b>LEARN MORE</b>
-				</p>
+				</p>  
 			</div>
 		</div>
 	</article>
-	
-	
+	 
 	<div class="pageBreak"></div>
-   <footer>
-		<h3>Copyright © Life After Purchase 2016</h3>
+   <footer >  
+        <div style = "margin-top:10px; position:relative; top:-20px;">
+            <h3 class="col-sm-4" style="background-color:white;font-size:14px;">Copyright © Life After Purchase 2016</h3>
+            <h3 class="col-sm-4" style="background-color:white;font-size:14px">.image</h3>
+            <h3 class="col-sm-4" style="background-color:white;font-size:14px">Service&#174;lifeafterpurchase.com - 180 - 238 - 3938</h3> 
+        </div>    
+        <div style = "margin-top:0px;">
+            <font color = "white">.</font>
+        </div>
    </footer>
 </div><!-- end of main wrapper -->
 <?php wp_footer(); ?>

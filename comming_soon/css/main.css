@@ -657,6 +657,10 @@ p.brandShortInformation {
 	article h4 {
 		font-size: 40px;
 	}
+	.abt-us{   
+		margin-top: 4px;
+		font-size: 28px !important; 
+	}
 	.afterPurchaseContent p{
 		font-size: 40px;	
 	}
@@ -675,15 +679,18 @@ p.brandShortInformation {
 		font-size: 35px;
 	}
 	article h4 {
-    	font-size: 30px;
+    	font-size: 20px;
 		line-height: 36px;
+	}
+	.abt-us{  
+		margin-top:10px;
 	}
 	.afterPurchaseContent p {
     	font-size: 30px;
 		line-height: 36px;
 	}
 	.consignerBuyer .buttonBuyer, .consignerBuyer .buttonConsigner {
-		font-size: 25px;
+		font-size: 20px;
 		margin:0 0 10px 0;
 		float: none;
 	}
