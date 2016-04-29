@@ -1,0 +1,30 @@
+ 
+.afterPurchase { 
+	
+}
+ 
+.afterPurchase h2{ 
+	font-family: Avenir Next Regular !important;
+	padding:5px 0px 5px 0px;
+}
+
+.navigation li {
+    padding: 0 8px !important;
+}
+
+.consignerBuyer {
+	padding-top: 2px;
+    margin-bottom: 20px;
+}
+.text-lp{
+	font-family: 'Didot Regular, Avenir Next Ultra Light';
+}
+.tiered-commission{ 
+	line-height: 25px !important;
+}
+.final-sign-cosigner{
+	width: 170px !important;
+}
+.final-sign-shopper{
+	width: 170px !important;
+}

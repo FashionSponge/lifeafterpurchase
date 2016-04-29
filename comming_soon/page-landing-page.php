@@ -3,11 +3,18 @@
 <title><?php wp_title(''); ?></title>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
+
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">  
+
+<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo ( 'template_url' ); ?>/css/custom-michael.css" />  
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="<?php echo JS; ?>/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
 <?php wp_head(); ?>
 </head>
 <body>
@@ -21,9 +28,9 @@
     </div>
 	<div class="uk-container uk-container-center content fix-height">   
         <div class="uk-grid uk-grid-collapse">
-            <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 afterPurchase">                 
+            <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 afterPurchase" id = "SUSTAINING">                 
 				<h1><b>LIFE AFTER</b> PURCHASE</h1>				
-				<h2> "SUSTAINING PEOPLE, SUSTAINING PRODUCTS" </h2>
+				<h2> "SUSTAINING PEOPLE. SUSTAINING PRODUCTS." </h2>
 			</div>
 			<!-- end of uk width 1-1 -->
            
@@ -31,18 +38,19 @@
                  <div class="title-collapse"><p><b>LIFE AFTER</b> PURCHASE</p></div><div  id="icons"><span class="glyphicon glyphicon-align-justify"></span></div>
 				<div class="clear"></div>
                 <ul class="slide_down">
+                    <li><a href="mainWrapper">EVENT INFO</a></li>
+
 					<li><a href="mainWrapper">HOW TO CONSIGN</a></li>
 	
 					<li><a href="consign">WHY CONSIGN?</a></li>
 
 					<li><a href="profit">POTENTIAL PROFIT</a></li>
 		
-					<li><a href="accept">BRANDS WE ACCEPT</a></li>
+					<li><a href="accept">WHAT WE ACCEPT</a></li>
 
-					<li><a href="mainWrapper">EVENT INFO</a></li>
+					<li><a href="mainWrapper">EVENT FAQ'S</a></li>
 
-					<li><a href="mainWrapper">CONTACT US</a></li>
-                   
+					<li><a href="mainWrapper">ABOUT US</a></li> 
 				</ul>
 
 			</div>
@@ -52,9 +60,9 @@
 		
         <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 afterPurchaseResale">
 			<article class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 afterPurchaseContent">
-                <h4>REDEFING RESALE BY THE LAP</h4>
+                <h4>REDEFING RESALE</h4>
                 <p>Sign up to consign your new or gently used clothing, accessories and home goods at our resale event. Shoppers sign up to get notified the event date.
-                    Consigner spots are limited so sign up NOW! <b class="highlight">Deadline to register is May 18th, 2016</b></p>
+                    Consigner spots are limited so sign up NOW! <b class="highlight">DEADLINE TO REGISTER IS MAY 18TH, 2016</b></p>
                 <div class="uk-grid uk-grid-collapse consignerBuyer">
                     <div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1">
                         <a href="<?php echo SITEURL; ?>/consign/" class="uk-button uk-float-right buttonConsigner">CONSIGNER</a>						
@@ -216,12 +224,12 @@
     <div class="container">
 		<article class="titleHead">
 			<h4 id="profit"><span class="black">HOW MUCH YOU COULD MAKE?</span></h4>
-			<h5>*Pay out is based on the amount of the item and  when the items is  sold.</h5>
+			<h5 class = "tiered-commission">*With our tiered commission structure, you can earn as much as <strong>50 - 80%</strong> of the selling price for your items. <br> Enter the amount you will sell your item for to see how much you could make. </h5>
 		</article><!-- end of article -->
         <div class="row buy">
 			<div class="col-md-4 buyer">
 				<div class="col-md-12">
-					<p class="titleLabel col-md-9 col-md-offset-1 col-sm-9 col-sm-offset-3 col-xs-9 col-xs-offset-3">BUYER PAYS</p>
+					<p class="titleLabel col-md-9 col-md-offset-1 col-sm-9 col-sm-offset-3 col-xs-9 col-xs-offset-3">SELLING PRICE</p>
 				</div>
                 <div class="col-md-9 col-md-offset-1 insert-error">
                     
@@ -1074,16 +1082,13 @@
                                 <br/><br/>
                                 All of the merchandise is conveniently tagged, organized, and displayed by category. Clothes are all displayed on racks by gender, size, style and occasion. Shopping our consignment event couldn't be easier! You won't believe the incredible inventory and unbeatable prices.
                             </p>
-                            <h3 class="text-left items-header"> Here are a few tips to maximize your shopping experience:</h3>
+                            <h3 class="text-left items-header"><center> HERE ARE A FEW TIPS TO MAXIMIZE YOUR SHOPPING EXPERIENCE:</center></h3>
                             <p class="text-left">
                                 Expect a crowd…. This is an amazing sale so download our <font color = "#39aecf">Ultimate Wardrobe Checklist</font> to be prepared with a list of items you need.
                                 <br/><br/>
-                                Purchase a Pre Sale Pass to SHOP before the Public.
-                                <br/><br/>
-                                Items with missing or altered tags cannot be sold.
-                                <br/><br/>
-                                No food or beverage is allowed at the sale.
-                                <br/><br/>
+                                Purchase a Pre Sale Pass to SHOP before the Public. <br/>
+                                Items with missing or altered tags cannot be sold. <br/>
+                                No food or beverage is allowed at the sale.<br/>
                                 Many items are marked 25% off on the last day of the sale!
                             </p>
                             <h4 class="text-left">
@@ -1499,10 +1504,10 @@
 					<h3 class="text-left"> Need extra cash? Looking to save on the latest additions to your fashion  and home collection? </h3>
 					<div class="uk-grid uk-grid-collapse consignerBuyer">
 						<div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1">
-							<a href="<?php echo SITEURL; ?>/consign/" class="uk-button uk-float-right buttonConsigner">CONSIGNER</a>						
+							<a href="<?php echo SITEURL; ?>/consign/" class="uk-button uk-float-right buttonConsigner final-sign-cosigner">CONSIGNER</a>						
 						</div><!-- end of width 1-2 -->
 						<div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1">
-							<a href="<?php echo SITEURL;?>/shopper/" class="uk-button uk-float-left buttonBuyer">SHOPPER</a>
+							<a href="<?php echo SITEURL;?>/shopper/" class="uk-button uk-float-left buttonBuyer final-sign-shopper">SHOPPER</a>
 						</div><!-- end of width 1-2 -->
 					</div><!-- end onf consigner buyer -->
 				</div>
