@@ -47,4 +47,125 @@ footer .cfooter1{
 	 position:relative;top:1px; 
 	 background-color:white;
 	 padding: 0px 0px 28px 0px !important;
+} 
+@media screen and (max-width: 768px) {
+
+	.h-f-content{
+		font-size: 30px !important;
+	}
+	.p-f-content{
+		font-size: 18px !important;	
+	}
+	/*.row-column3{  
+
+	}
+	.row-column3 .row-col21{
+		max-width: 50%; 
+		margin-left: 20%;
+
+	}*/
+}
+@media screen and (max-width: 480px){
+	.h-f-content{
+		font-size: 20px !important;
+	}
+	.p-f-content{
+		font-size: 14px !important;	
+	}  
+}
+@media screen and (max-width: 320px){
+
+	.h-f-content{
+		font-size: 15px !important;
+	}
+	.p-f-content{
+		font-size: 12px !important;	
+	} 
+	.consignerBuyer .buttonConsigner, .buttonBuyer{
+		max-height:2px !important; 
+		max-width:90px !important; 
+		font-size: 12px !important;
+		padding-top: 8px;
+	}
+	.consignerBuyer .buttonBuyer{
+		 padding-top: 8.2px !important;
+	}
+
+} 
+
+.brd-right{
+
+	border-right:none !important;
+}
+.w-c-s-column{ 
+}
+.pw-c-s-column{
+	text-align: center !important;
+}
+.wp-private-resale{ 
+}
+div.text2{
+	padding: 40px;
+	display:block;
+	background-color:red; 
+	max-width: 350px;
+	max-height:495px !important;
+
+}
+div.text1{
+	 background-color: #F3F3F3 !important; 
+	padding: 40px;
+	display:block; 
+	max-width: 350px;
+	max-height:495px !important;
+	padding-bottom:55px !important;
+	
+}
+div.text3{ 
+	padding:40px;
+	color:#010101;
+	display:block;
+	background-color:red; 
+	max-width: 350px; 
+	max-height:500px !important;
+	background-color: #E8E8E8 !important;
+	padding-bottom:55px !important;
+
+}
+div.text3 p{
+	color:#2A2A2A;
+	line-height: 30px;
+}
+div.text2 p{
+	color:#FDD3B1;
+	line-height: 20px;
+}
+div.text1 p{
+	color:#2A2A2A;
+	line-height: 25px;
+}
+div.text1 h5{
+	color:#010101;
+	line-height: 1px;
+	font-family: 'Didot';
+	font-weight: bold; 
+}
+div.text2 h5{
+	font-weight: bold;
+	font-family: 'Didot';
+	line-height: 1px;
+	color:#fff;
+}
+div.text3 h5{
+	font-family: 'Didot';
+	color:#010101;
+	font-weight: bold;
+	line-height: 1px;
+}
+
+@media screen and ( min-width:375px) and ( max-width: 767px){
+	 div.text1{
+	 	width:100% !important;
+	 	background-color:red !important; 
+	 }
 }

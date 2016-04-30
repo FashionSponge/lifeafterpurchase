@@ -60,8 +60,8 @@
 		
         <div class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 afterPurchaseResale">
 			<article class="uk-width-large-1-1 uk-width-medium-1-1 uk-width-small-1-1 afterPurchaseContent">
-                <h4>REDEFING RESALE</h4>
-                <p>Sign up to consign your new or gently used clothing, accessories and home goods at our resale event. Shoppers sign up to get notified the event date.
+                <h4 class = "h-f-content">REDEFING RESALE</h4>
+                <p class = "p-f-content">Sign up to consign your new or gently used clothing, accessories and home goods at our resale event. Shoppers sign up to get notified the event date.
                     Consigner spots are limited so sign up NOW! <b class="highlight">DEADLINE TO REGISTER IS MAY 18TH, 2016</b></p>
                 <div class="uk-grid uk-grid-collapse consignerBuyer">
                     <div class="uk-width-large-1-2 uk-width-medium-1-2 uk-width-small-1-1">
@@ -79,7 +79,92 @@
 <!-- fsheen -->
     <article>
         <div class="container">
-            <div class="row first_section">
+            <div
+             class="row first_section">
+
+
+             <div class = "w-c-s-column">
+                <h4 class="text-center"><span class="red">WHATS A CONSIGNMENT SALE?</span></h4>             
+                <p class="text-left pw-c-s-column">A consignment sale is a 3 day event where you sale,  shop and save on new and gently used men and women clothing, shoes, accessories and home goods.</p>
+                <p class="text-left pw-c-s-column" >Shopping a consignment event is a great way to shop high quality name brand items at 40-80% off retail! Selling your items at the event is amazingly easy.  As a consignor you register to sale your items. You then receive 60% of the proceeds from the sale. Prior to the sale you, the consignor, simply register and submit your items online for approval. You deliver your items to us prior to the event for inspecton. We advertise, set up the location for the sale, set up all consigned items at the sale site, and sell your items!</p>
+                <div class="border-right brd-right">    
+                </div>     
+            </div>
+
+            <div class="container-fluid row-column3">
+                <div class="row row-col21">
+
+                    <div class="col-sm-4 wp-private-resale"  >  
+                        <div class = "text1" >  
+                            <h5> PRIVATE PRESALE</h5> 
+                            <p>Score the best items by shopping before the public!</p></br>
+                            <h5 class="text-center">Thusday, June 23rd 2016</h5></br>
+                            <p>Get in Before the public Available to Anyone for Purcahse Passes required for every 16+</p>
+                            <h5 class="text-center">Tickets are NON-REFUNDABLE</h5>
+                            </br></br><br><br>
+                            <h5 class="text-center">Cost: $10.00-$20.00</h5></br></br>
+                            <a href="#" style = "background-color:#19B0C5; color:#fff; border:1px solid #fff; padding:15px" class="">GET NOTIFIED</a>  
+                        
+                        </div>
+                    </div>
+                    <div class="col-sm-4 wp-private-resale" >  
+                        <div class = "text2" style = "background:#FF6A00 !important; "> 
+                            <h5 class="text-center" >PUBLIC SHOPPING</h5>
+                            <p>Shop the entire site for the best deals.</p></br>
+                            <h5 class="text-center" >Friday, June 24th</h5>
+                            <p>9am-7pm</p></br>
+                            <h5 class="text-center" >Saturday, June 25th</h5>
+                            <p>9am-5pm</p>
+                            <p>15% off Many Items</p></br>
+                            <h5 class="text-center">Sunday, June 25th</h5>
+                            <p >9am-5pm</p>
+                            <p >25% off Many Items</p><br>
+                            <a href="#" style = "background-color:#F7E727; color:#fff;line-height: 60px; border:1px solid #fff; padding:15px">GET NOTIFIED</a>  
+                            <p style = "color:#FF6A00 "></p>
+                        </div>  
+                    </div>
+                    <div class="col-sm-4 wp-private-resale" >  
+                        <div class = "text3"> 
+                            <h5 class="text-center" >CONSIGNER DATES</h5>
+                            <p>Sore the best deal by shopping before the public</p><br>
+                            <h5 class="text-center">Tuesday, June 21st</h5>
+                            <p>Merchantise Drop-Off - 12pm-8pm</p><br>
+                            <h5 class="text-center">Wednesday, April 21st</h5>
+                            <p>Merchantise Drop-Off - 12pm-8pm</p><br>
+                            <h5 class="text-center">Sunday,April 24th</h5>
+                            <p>Consignor Pick-up 4:30-7:30pm SHARP(no exceptions)</p><br> 
+                            <a href="#" style = "background-color:#DF2204; color:#fff; border:1px solid #fff; padding:15px" class="">GET NOTIFIED</a>  
+                            
+                        </div>
+                    </div>
+
+                    <!--
+                    <div class="col-sm-4 wp-private-resale" style="background-color:lavenderblush; color: black">   
+                        <h4 class="text-center" style = "color:black"> PRIVATE PRESALE</h4>
+                        </br></br>
+                        <h5 class="text-center"> PRIVATE PRESALE</h5>
+                        </br></br>
+                        <h5 class="text-center"> PRIVATE PRESALE</h5>
+                        </br></br>
+                        <h5 class="text-center"> PRIVATE PRESALE</h5>
+                        <a href="#" class="">GET NOTIFIED</a>    
+
+                    </div>
+                    <div class="col-sm-4 wp-private-resale" style="background-color:#FAFAFA; color: black">   
+                        <h4 class="text-center" > PRIVATE PRESALE</h4>
+                        </br></br>
+                        <h5 class="text-center"> PRIVATE PRESALE</h5>
+                        </br></br>
+                        <h5 class="text-center"> PRIVATE PRESALE</h5>
+                        </br></br>
+                        <h5 class="text-center"> PRIVATE PRESALE</h5>
+                        <a href="#" class="">CONSIGN NOW</a>
+
+                    </div>
+                    -->
+                </div>
+            </div>
+             <!--      
                 <div class="col-md-6">
                     <h4 class="text-center"><span class="red">WHATS A CONSIGNMENT SALE?</span></h4>             
                     <p class="text-left">A consignment sale is a 3 day event where you sale,  shop and save on new and gently used men and women clothing, shoes, accessories and home goods.</p>
@@ -87,7 +172,7 @@
                     <div class="border-right">    
                     </div>
                 </div>
-                    
+              
                  <div class="col-md-6 gothic">
                     <h4 class="text-center"><span class="red">SHOP THE SUMMER SALE </span></h4>
                     <p>JUNE 20th - 23rd 2016</p>
@@ -100,6 +185,7 @@
                     </p>    
                     <p>PAYMENT TYPES ACCEPTED: VISA, MASTERCARD, DISCOVER, AMEX</p>
                 </div>
+            -->
             </div>
         </div>
     </article>
