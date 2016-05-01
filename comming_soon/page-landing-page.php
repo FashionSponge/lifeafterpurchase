@@ -98,13 +98,11 @@
                         <div class = "text1" >  
                             <h5> PRIVATE PRESALE</h5> 
                             <p>Score the best items by shopping before the public!</p></br>
-                            <h5 class="text-center">Thusday, June 23rd 2016</h5></br>
-                            <p>Get in Before the public Available to Anyone for Purcahse Passes required for every 16+</p>
-                            <h5 class="text-center">Tickets are NON-REFUNDABLE</h5>
-                            </br></br><br><br>
-                            <h5 class="text-center">Cost: $10.00-$20.00</h5></br></br>
-                            <a href="#" style = "background-color:#19B0C5; color:#fff; border:1px solid #fff; padding:15px" class="">GET NOTIFIED</a>  
-                        
+                            <h5 class="text-center">Thusday, June 23rd 2016</h5> 
+                            <p>Get in Before the public </br>Available to Anyone for Purcahse <br/>Passes required for everyone 13+</br> Tickets are NON-REFUNDABLE </p> <br/><br/>
+                            <h5 class="text-center" style = "margin-top:-15px;">Cost: $10.00-$20.00</h5></br></br></br>
+                            <a href="#" style = "background-color:#19B0C5; color:#fff; border:1px solid #fff; padding:15px" class="">BUY TICKET</a>  
+                            
                         </div>
                     </div>
                     <div class="col-sm-4 wp-private-resale" >  
@@ -129,11 +127,11 @@
                             <p>Sore the best deal by shopping before the public</p><br>
                             <h5 class="text-center">Tuesday, June 21st</h5>
                             <p>Merchantise Drop-Off - 12pm-8pm</p><br>
-                            <h5 class="text-center">Wednesday, April 21st</h5>
+                            <h5 class="text-center">Wednes day, April 21st</h5>
                             <p>Merchantise Drop-Off - 12pm-8pm</p><br>
                             <h5 class="text-center">Sunday,April 24th</h5>
-                            <p>Consignor Pick-up 4:30-7:30pm SHARP(no exceptions)</p><br> 
-                            <a href="#" style = "background-color:#DF2204; color:#fff; border:1px solid #fff; padding:15px" class="">GET NOTIFIED</a>  
+                            <p>Consignor Pick-up-4:30-7:30pm SHARP(no exceptions)</p><br> 
+                            <a href="#" style = "background-color:#DF2204; color:#fff; border:1px solid #fff; padding:15px" class="">CONSIGN</a>  
                             
                         </div>
                     </div>
