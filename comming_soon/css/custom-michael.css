@@ -65,6 +65,14 @@ footer .cfooter1{
 
 	}*/
 }
+@media screen and ( min-width:481px) and ( max-width:526px){ 
+	.h-f-content{
+		font-size: 19px !important;
+	}
+	.p-f-content{
+		font-size: 14px !important;	
+	}  
+}
 @media screen and (max-width: 480px){
 	.h-f-content{
 		font-size: 20px !important;
@@ -83,14 +91,19 @@ footer .cfooter1{
 	} 
 	.consignerBuyer .buttonConsigner, .buttonBuyer{
 		max-height:2px !important; 
-		max-width:90px !important; 
-		font-size: 12px !important;
+		max-width:110px !important; 
+		font-size: 11px !important;
 		padding-top: 8px;
 	}
 	.consignerBuyer .buttonBuyer{
 		 padding-top: 8.2px !important;
 	}
-
+	.footer-div1{
+		position:relative !important; 
+		top:0px !important;
+	}
+	.right h1{ 
+	}
 } 
 
 .brd-right{
@@ -247,6 +260,10 @@ div.text3 h5{
     font-size: 100%;
 
 	} 
+	.footer-div1{
+		position:relative !important; 
+		top:0px !important;
+	}
 }
 @media screen and ( min-width:320px) and ( max-width:375px){ 
 	div.text1 h5 { 
@@ -278,6 +295,17 @@ div.text3 h5{
 	div.text3 p { 
      line-height: 20px;
     font-size: 100%;
+	} 
+	.footer-div1{
+		position:relative !important; 
+		top:0px !important;
+	}
+}
+@media screen and ( min-width:376px) and ( max-width:766px){ 
+	.footer-div1{
+		position:relative !important; 
+		top:0px !important;
+	}
+
 
 	} 
-}

@@ -2,12 +2,9 @@
 <html>
 <title><?php wp_title(''); ?></title>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">  
-
-<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo ( 'template_url' ); ?>/css/custom-michael.css" />  
-
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">   
+<link rel="stylesheet" type="text/css" href="<?php echo get_bloginfo ( 'template_url' ); ?>/css/custom-michael.css" /> 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 <script src="<?php echo JS; ?>/jquery.min.js"></script>
@@ -186,11 +183,7 @@
             -->
             </div>
         </div>
-    </article>
-
-
-
-
+    </article> 
     <div class="uk-grid uk-grid-collapse start">
         <div class="uk-container uk-container-center content">  
             <article class="titleHead">
@@ -227,7 +220,7 @@
     <div class="uk-grid uk-grid-collapse whyConsignWithUs">
         <div class="uk-container uk-container-center content"> 
             <article class="titleHead">
-                <h4><span class="black" id="consign">WHY BUY & SELL AT A CONSIGNMENT EVENT?</span></h4>
+                <h4><span class="black" id="consign">WHY BUY &amp; SELL AT A CONSIGNMENT EVENT?</span></h4>
             </article><!-- end of article -->
             <div class="uk-grid uk-grid-collapse consignWrapper">
             	<div class="uk-width-large-1-3 uk-width-medium-1-2 uk-width-small-1-1">
@@ -1620,9 +1613,16 @@
 	 
 	<div class="pageBreak"></div>
    <footer >  
-        <div style = "margin-top:10px; position:relative; top:-20px;">
+        <div class = "footer-div1 container"style = "margin-top:10px; position:relative; top:-20px;">
             <h3 class="col-sm-4" style="background-color:white;font-size:14px;">Copyright © Life After Purchase 2016</h3>
-            <h3 class="col-sm-4" style="background-color:white;font-size:14px">.image</h3>
+            <h3 class="col-sm-4" style="background-color:white;font-size:14px"> 
+                <img src = "<?php echo get_bloginfo ( 'template_url' ); ?>/img/american-express.png" alt="american-express" width = "30px" height = "20px" />     
+                <img src = "<?php echo get_bloginfo ( 'template_url' ); ?>/img/discover.png" alt="discover" width = "30px" height = "20px" />     
+                <img src = "<?php echo get_bloginfo ( 'template_url' ); ?>/img/dollar.png" alt="dollar" width = "30px" height = "20px" />     
+                <img src = "<?php echo get_bloginfo ( 'template_url' ); ?>/img/masterCard.png" alt="masterCard" width = "30px" height = "20px" />     
+                <img src = "<?php echo get_bloginfo ( 'template_url' ); ?>/img/paypal.png" alt="paypal" width = "30px" height = "20px" />
+                <img src = "<?php echo get_bloginfo ( 'template_url' ); ?>/img/visa.png" alt="visa" width = "30px" height = "20px" />   
+            </h3>
             <h3 class="col-sm-4" style="background-color:white;font-size:14px">Service&#174;lifeafterpurchase.com - 180 - 238 - 3938</h3> 
         </div>    
         <div style = "margin-top:0px;">
